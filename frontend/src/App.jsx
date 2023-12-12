@@ -4,15 +4,16 @@ import React from 'react'
 // import ContactPage from './pages/ContactPage'
 // import AuthPage from './pages/AuthPage'
 // import CartPage from './pages/CardPage'
-import BlogDetailsPage from './pages/BlogDetailsPage'
+// import BlogDetailsPage from './pages/BlogDetailsPage'
 
 import './app.css'
-// import ProductDetailsPage from './pages/ProductDetailsPage'
+import ProductDetailsPage from './pages/ProductDetailsPage'
 // import BlogPage from './pages/BlogPage'
 
 
 
 function App() {
+
 
   return (
     <React.Fragment>
@@ -21,9 +22,9 @@ function App() {
       {/* <ContactPage /> */}
       {/* <AuthPage /> */}
       {/* <CartPage /> */}
-      <BlogDetailsPage />
+      {/* <BlogDetailsPage /> */}
       {/* <BlogPage /> */}
-      {/* <ProductDetailsPage /> */}
+      <ProductDetailsPage />
     </React.Fragment>
   )
 }
