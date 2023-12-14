@@ -34,7 +34,8 @@ PrevBtn.propTypes = {
 
 const Products = () => {
 
-    const [products] = useState(productsData)
+    const [products] = useState(productsData);
+
 
     const sliderSettings = {
         dots: false,
@@ -74,7 +75,7 @@ const Products = () => {
                     <div className="glide__track">
                         <Slider {...sliderSettings}>
                             {products.map((product, i) => (
-                                <ProductItem product={product} key={i} />
+                                <ProductItem productItem={product} key={i} />
                             ))}
                         </Slider>
                     </div>

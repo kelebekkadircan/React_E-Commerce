@@ -14,21 +14,19 @@ const HomePage = () => {
 
 
     return (
-        <div>
-            <React.Fragment>
 
-                <Sliders />
-                <Categories />
-                <Products />
-                <Campaigns />
-                <Products />
-                <Blogs />
-                <Brands />
-                <CampaignSingle />
-                <Policy />
+        <React.Fragment>
+            <Sliders />
+            <Categories />
+            <Products />
+            <Campaigns />
+            <Products />
+            <Blogs />
+            <Brands />
+            <CampaignSingle />
+            <Policy />
+        </React.Fragment>
 
-            </React.Fragment>
-        </div>
     )
 }
 
